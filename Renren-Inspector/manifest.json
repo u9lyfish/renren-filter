@@ -1,0 +1,16 @@
+{
+    "background": {
+        "persistent": false, 
+        "scripts": [
+            "background.js"
+        ]
+    }, 
+    "description": "Displays data-stype value at right bottom corner of every news feed on renren.com", 
+    "manifest_version": 2, 
+    "name": "Renren Inspector", 
+    "permissions": [
+        "tabs", 
+        "http://www.renren.com/*"
+    ], 
+    "version": "1.0"
+}
