@@ -1,0 +1,16 @@
+{
+    "background": {
+        "persistent": false, 
+        "scripts": [
+            "background.js"
+        ]
+    }, 
+    "description": "Hide all 'share' type feeds in renren homepage", 
+    "manifest_version": 2, 
+    "name": "Renren No Share", 
+    "permissions": [
+        "tabs", 
+        "http://www.renren.com/*"
+    ], 
+    "version": "1.0"
+}
