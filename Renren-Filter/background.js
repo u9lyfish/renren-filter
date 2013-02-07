@@ -34,7 +34,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 				(stype == 502 &&  \
 					articles[i].getElementsByTagName('div')[0].getAttribute('class') == 'content' && \
 					articles[i].getElementsByTagName('div')[1].getAttribute('class') == 'source')) { \
-				articles[i].style.cssText = 'border: 1px solid red'; \
+				articles[i].parentNode.removeChild(articles[i]); \
 			}; \
 		}; \
 		\

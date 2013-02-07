@@ -5,9 +5,9 @@
             "background.js"
         ]
     }, 
-    "description": "Hide all 'share' type feeds in renren homepage", 
+    "description": "Filter out the specified content from renren.com homepage", 
     "manifest_version": 2, 
-    "name": "Renren No Share", 
+    "name": "Renren Filter", 
     "permissions": [
         "tabs", 
         "http://www.renren.com/*"
