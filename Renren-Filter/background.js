@@ -1,5 +1,4 @@
 
-// This is ensured to get url
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 	executed = false;
 
