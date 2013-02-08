@@ -12,5 +12,8 @@
     "description": "Displays data-stype value at right bottom corner of every news feed on renren.com", 
     "manifest_version": 2, 
     "name": "Renren Inspector", 
+    "permissions": [
+        "https://api.github.com/*"
+    ], 
     "version": "1.0"
 }
