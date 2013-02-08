@@ -9,7 +9,7 @@
             ]
         }
     ], 
-    "description": "Displays data-stype value at right bottom corner of every news feed on renren.com", 
+    "description": "Display news feed types of renren.com homepage in a more user-friendly way", 
     "manifest_version": 2, 
     "name": "Renren Inspector", 
     "permissions": [

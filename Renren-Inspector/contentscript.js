@@ -50,6 +50,10 @@ function updateStypeList(response) {
  * 
  */
 function detectChange() { 
+	if (!known_stype) {
+		return;
+	};
+	
 	var newsfeed = document.getElementById('newsfeed-module-box');
 	if (!newsfeed) {
 		setTimeout('detectChange()', interval);
