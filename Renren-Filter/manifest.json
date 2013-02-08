@@ -1,18 +1,8 @@
 {
-    "background": {
-        "persistent": false, 
-        "scripts": [
-            "background.js"
-        ]
-    }, 
     "content_scripts": [
         {
-            "css": [
-                "mystyles.css"
-            ], 
             "js": [
-                "jquery.js", 
-                "myscript.js"
+                "contentscripts.js"
             ], 
             "matches": [
                 "http://www.renren.com/*"
