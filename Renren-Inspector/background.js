@@ -32,7 +32,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 			}; \
 			if (articles[i].getElementsByTagName('note').length == 0) { \
 				var note = document.createElement('note'); \
-				note.innerHTML = stype; \
+				note.innerText = stype; \
 				articles[i].appendChild(note); \
 			}; \
 		}; \
@@ -44,4 +44,3 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 	chrome.tabs.executeScript(tabId, {code: exec_code});
 	executed = true;
 });
-
