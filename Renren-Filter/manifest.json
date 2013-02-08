@@ -5,12 +5,22 @@
             "background.js"
         ]
     }, 
+    "content_scripts": [
+        {
+            "css": [
+                "mystyles.css"
+            ], 
+            "js": [
+                "jquery.js", 
+                "myscript.js"
+            ], 
+            "matches": [
+                "http://www.renren.com/*"
+            ]
+        }
+    ], 
     "description": "Filter out the specified content from renren.com homepage", 
     "manifest_version": 2, 
     "name": "Renren Filter", 
-    "permissions": [
-        "tabs", 
-        "http://www.renren.com/*"
-    ], 
     "version": "1.0"
 }
