@@ -12,5 +12,6 @@
     "description": "Filter out the specified content from renren.com homepage", 
     "manifest_version": 2, 
     "name": "Renren Filter", 
+    "options_page": "options.html", 
     "version": "1.0"
 }

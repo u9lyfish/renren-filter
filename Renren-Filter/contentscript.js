@@ -48,7 +48,7 @@ function loadConfig() {
  			articles[i].getElementsByTagName('div')[0].class == 'content' &&
  			articles[i].getElementsByTagName('div')[1].class == 'source')) 
  		{
- 			articles[i].style.cssText = 'border: 1px solid red';
+ 			articles[i].style.cssText = 'background-color: #EEE';
  		};
  	};
 
