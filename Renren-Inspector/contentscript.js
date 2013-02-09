@@ -70,7 +70,7 @@ function detectChange() {
 
 	for (var i = articles.length - 1; i >= 0; i--) {
 		var stype = articles[i].getElementsByTagName('figure')[0].getAttribute('data-stype');
-		if (known_stype.indexOf(stype) < 0) {
+		if (!stype && known_stype.indexOf(stype) < 0) {
 			articles[i].style.cssText = 'border: 1px solid red';
 		};
 		if (articles[i].getElementsByTagName('note').length == 0) {
